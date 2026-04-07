@@ -1,0 +1,24 @@
+.app {
+  min-height: 100vh;
+  background: var(--color-bg-dark);
+}
+
+section {
+  position: relative;
+}
+
+.section-padding {
+  padding: 100px 0;
+}
+
+@media (max-width: 768px) {
+  .section-padding {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-padding {
+    padding: 40px 0;
+  }
+}
